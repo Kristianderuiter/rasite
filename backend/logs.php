@@ -11,7 +11,7 @@
 
   			while($log = $result->fetch_assoc()){
   				$logid = $log['id'];
-          if(($count < $limit*$_GET['page'] && $count >= $limit*($_GET['page']-1))){
+          if(($count < $limit*($_GET['page']) && $count >= $limit*($_GET['page']-1))){
   				?>
 
          	 	<article class="logs noHover <?php if($log['level'] == 0){echo 'info-red';}else if($log['level'] == 1){echo 'info-green'; }else{echo 'info-orange';} ?>">
