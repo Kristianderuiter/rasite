@@ -28,8 +28,8 @@
             <p>Prioriteit: <b><?php echo $ticket['priority']; ?></b></p>
   					<p>Datum/tijd: <b><?php echo $ticket['date_time']; ?></b></p>
             <span>
-              <button name="edit" class="btn-green">Edit</button>
-              <button name="delete" class="btn-red">Verwerkt</button>
+              <button name="edit" class="btn-green"> Edit</button>
+              <button name="delete" class="btn-red"><a href= "log.php">Verwerkt</a></button>
             </span>
 
           		</article>
