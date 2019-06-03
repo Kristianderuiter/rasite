@@ -6,7 +6,7 @@
       	require_once 'dbconfig.php';
 
 
-          $logid = $_GET['id'];
+          $logid = 'id';
       		$sql = "SELECT * FROM logs WHERE id = $logid";
   			   $result = $conn->query($sql);
 
